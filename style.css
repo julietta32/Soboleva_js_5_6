@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div.top{
+	width: 70%;
+	height: 40px;
+	background-color: darkblue;
+	margin: 0 auto;
+}
+.top a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 30%;
+}
+div.timer{
+	height: 350px;
+}
+.stop{
+	height: 400px;
+	width: 25%;
+	background-image: url(img/green.jpg);
+	background-repeat:no-repeat;
+	margin-left: 22%;
+	font-size: 38px;
+	text-align: center;
+	float: left;
+}
+.stop a, .count a{
+	height: 400px;
+	width: 250px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.middle{
+	height: 410px;
+	width: 7px;
+	background-color: dimgrey;
+	float: left;
+	border: 3px solid black;
+	border-radius: 7px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.count{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-image:url(img/red.jpg);
+	background-repeat:no-repeat;
+	font-size: 38px;
+	text-align: center;
+	margin-left: 10%;
+	
+}
+.bottom{
+	clear: both;
+	width: 70%;
+	height: 40px;
+	background-color: darkblue;
+	margin: 0 auto;
+	margin-top: 40px;
+	
+}
+a.green{
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+	visibility: hidden;
+}
+
+
+
+div.clock{
+	height: 150px;
+    width: 600px;
+    border-radius: 20px;
+    border: 9px solid black;
+    margin-left: 210px;	
+    margin-top: 30px;	
+	font-size: 106px;
+	font-weight: 800;
+	text-align: center;
+}
+
+div.pause{
+	height:  80px;
+	width:  200px;
+	border-radius:  20px;
+	border:  9px solid black;
+	margin-left:  210px;	
+	margin-top:  30px;	
+	float:  left;
+	font-size:  54px;
+	font-weight:  bold;
+	text-align:  center;
+	background-color: #32CD32;	
+}
+
+
+a.af, a.af2{
+
+	color:  black;
+	text-decoration:  none;
+	display:  block;	
+}
+
+
+
+div.clear{
+	height:  80px;
+	width:  200px;
+	border-radius:  20px;
+	border:  9px solid black;
+	margin-left:  180px;
+	margin-top:  30px;	
+	background-color: #B22222;	
+	float: left;
+	font-size:  54px;
+	font-weight:  bold;
+	text-align:  center;
+}
+
+
+
